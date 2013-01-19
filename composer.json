@@ -1,0 +1,32 @@
+{
+    "name":        "getninja/facebook",
+    "type":        "library",
+    "description": "A PSR-2 Facebook SDK Api Wrapper for php.",
+    "homepage":    "https://github.com/GetNinja/Facebook",
+    "keywords":    ["Facebook", "SDK", "Api Wrapper", "PSR-2"],
+    "license":     "Apache v2.0",
+    "authors":     [
+        {
+            "name":     "Luke Scalf",
+            "email":    "luke@monkeywrench.cc",
+            "homepage": "https://github.com/GetNinja"
+        }
+    ],
+    "require": {
+        "php":      ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "mockery/mockery": ">=0.7.2"
+    },
+    "autoload": {
+        "psr-0": {"GetNinja\\Facebook": "src/"}
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x"
+        }
+    }
+}
