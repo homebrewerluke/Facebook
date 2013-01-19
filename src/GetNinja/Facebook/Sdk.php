@@ -2,8 +2,6 @@
 
 namespace GetNinja\Facebook;
 
-//use SdkException;
-
 class Sdk
 {
     /**
