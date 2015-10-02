@@ -1,4 +1,4 @@
-# GetNinja GoogleAnalytics
+# GetNinja Facebook
 
 A PSR-2 Facebook SDK Wrapper for php.
 
